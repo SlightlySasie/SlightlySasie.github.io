@@ -2,9 +2,63 @@ h1{
     text-align: center;
 }
 
+header{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 1% 2% 1% 2%;
+}
+
 body{
     background-color: rgb(70, 98, 104);
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
     color: azure;
 }
+
+.programma{
+    background-color: rgb(225, 91, 45);
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+.headerimg{
+    width: 10%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 15px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(131, 143, 146);
+  }
+
+@media only screen and (max-width: 600px) {
+    img {
+      width: 100%;
+    }
+  }
