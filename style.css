@@ -20,6 +20,10 @@ body{
     background-color: rgb(225, 91, 45);
 }
 
+.corvee{
+    background-color: #e2b8f7;
+}
+
 img{
     display: block;
     margin-left: auto;
